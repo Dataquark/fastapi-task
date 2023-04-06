@@ -1,0 +1,15 @@
+# git and env 
+.git
+.cache
+.env
+
+# virtualenv anv vscode settings
+venv/
+.vscode/
+
+# python cache
+**/__pycache__
+
+# temp directories and files
+**/temp
+*.json

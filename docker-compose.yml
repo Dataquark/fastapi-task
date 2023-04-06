@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0
+    volumes:
+      - ./temp/keys:/code/app/tmp/keys
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/code/app/tmp/keys/json_key.json
+    ports:
+      - 8008:8000

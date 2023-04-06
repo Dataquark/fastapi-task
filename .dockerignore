@@ -1,0 +1,15 @@
+# git and env 
+.git
+.cache
+.env
+
+# virtualenv anv vscode settings
+venv
+.venv/
+.vscode/
+
+# python cache
+**/__pycache__
+
+*.json
+.dockerignore
