@@ -2,6 +2,7 @@
 .git
 .cache
 .env
+*.json
 
 # virtualenv anv vscode settings
 venv/
@@ -10,6 +11,3 @@ venv/
 # python cache
 **/__pycache__
 
-# temp directories and files
-**/temp
-*.json
