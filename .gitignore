@@ -11,3 +11,4 @@ venv/
 # python cache
 **/__pycache__
 
+temp/
