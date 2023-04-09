@@ -13,7 +13,7 @@ queryExecutor = QueryExecutor()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"Swagger Docs": "http://46.101.199.96:8008/docs"}
 
 
 @app.get("/total")
